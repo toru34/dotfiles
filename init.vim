@@ -23,3 +23,12 @@ set softtabstop=4
 set autoindent
 set smartindent
 
+" Plugins
+call plug#begin()
+    Plug 'EdenEast/nightfox.nvim'
+    Plug 'nvim-lualine/lualine.nvim'
+    Plug 'kyazdani42/nvim-web-devicons'
+    Plug 'lukas-reineke/indent-blankline.nvim'
+call plug#end()
+
+colorscheme nightfox
