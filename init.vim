@@ -11,6 +11,7 @@ set title
 set hlsearch
 set wrapscan
 set incsearch
+set ignorecase
 
 " Key mapping
 inoremap jk <Esc>
@@ -25,10 +26,8 @@ set smartindent
 
 " Plugins
 call plug#begin()
-    Plug 'EdenEast/nightfox.nvim'
-    Plug 'nvim-lualine/lualine.nvim'
-    Plug 'kyazdani42/nvim-web-devicons'
     Plug 'lukas-reineke/indent-blankline.nvim'
+    Plug 'patstockwell/vim-monokai-tasty'
 call plug#end()
 
-colorscheme nightfox
+colorscheme vim-monokai-tasty
